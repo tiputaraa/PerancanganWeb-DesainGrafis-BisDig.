@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Blog UTS</title>
+  <style>
+    #komentar {
+      display: none;
+      margin-top: 10px;
+      border-top: 1px solid #ccc;
+      padding-top: 10px;
+    }
+    button {
+      padding: 10px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Judul Blog</h1>
+  <p>Ini adalah isi artikel blog. Bacalah dengan seksama.</p>
+
+  <button onclick="tampilkanKomentar()">Tampilkan Komentar</button>
+
+  <div id="komentar">
+    <h3>Komentar:</h3>
+    <ul>
+      <li>Artikel ini sangat bermanfaat!</li>
+      <li>Terima kasih atas informasinya.</li>
+    </ul>
+  </div>
+
+  <script>
+    function tampilkanKomentar() {
+      const komentar = document.getElementById('komentar');
+      const tombol = document.querySelector('button');
+
+      if (komentar.style.display === 'none') {
+        komentar.style.display = 'block';
+        tombol.textContent = 'Sembunyikan Komentar';
+      } else {
+        komentar.style.display = 'none';
+        tombol.textContent = 'Tampilkan Komentar';
+      }
+    }
+  </script>
+
+</body>
+</html>
