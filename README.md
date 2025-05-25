@@ -20,9 +20,3 @@ Ini adalah tugas Ujian Tengah Semester (UTS) untuk mata kuliah **Perancangan Web
 4. Klik lagi tombol tersebut untuk menyembunyikannya kembali.
 
 ## 📁 Struktur File
-
-## 👨‍🎓 Dibuat oleh:
-Tiara Puti Dewi  
-NIM: 23110310050 
-Kelas: 4A 
-Universitas Tangerang Raya
