@@ -21,8 +21,8 @@ Ini adalah tugas Ujian Tengah Semester (UTS) untuk mata kuliah **Perancangan Web
 
 ## 📁 Struktur File
 
-
 ## 👨‍🎓 Dibuat oleh:
-Tiara Puti Dewi – Mahasiswa Bisnis Digital 
+Tiara Puti Dewi  
+NIM: 23110310050 
+Kelas: 4A 
 Universitas Tangerang Raya
-
